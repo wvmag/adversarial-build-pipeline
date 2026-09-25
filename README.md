@@ -1,6 +1,6 @@
 # adversarial-build-pipeline
 
-A skill for [oh-my-pi (omp)](https://github.com/can1357/oh-my-pi): a deterministic multi-agent build pipeline with adversarial review baked into every stage. Instead of one agent implementing and grading its own homework, doers build and independent reviewers attack the work — before and after code exists.
+A skill for [oh-my-pi (omp)](https://omp.sh): a deterministic multi-agent build pipeline with adversarial review baked into every stage. Instead of one agent implementing and grading its own homework, doers build and independent reviewers attack the work — before and after code exists.
 
 ## The pipeline
 
