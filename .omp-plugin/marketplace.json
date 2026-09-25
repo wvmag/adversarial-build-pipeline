@@ -1,0 +1,25 @@
+{
+  "name": "adversarial-build-pipeline",
+  "owner": {
+    "name": "wvmag",
+    "url": "https://github.com/wvmag"
+  },
+  "metadata": {
+    "description": "Adversarial multi-agent build pipeline for omp"
+  },
+  "plugins": [
+    {
+      "name": "adversarial-build-pipeline",
+      "description": "Run for any non-trivial build request: plan, refute-plan, spec, parallel file-disjoint implementation, refute-diffs, verify. Evidence-gated adversarial review with five lenses.",
+      "version": "1.0.0",
+      "author": {
+        "name": "wvmag"
+      },
+      "homepage": "https://github.com/wvmag/adversarial-build-pipeline",
+      "repository": "https://github.com/wvmag/adversarial-build-pipeline",
+      "keywords": ["omp", "agents", "adversarial-review", "pipeline", "skills"],
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}

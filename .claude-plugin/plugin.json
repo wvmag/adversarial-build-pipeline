@@ -1,0 +1,11 @@
+{
+  "name": "adversarial-build-pipeline",
+  "version": "1.0.0",
+  "description": "Run for any non-trivial build request: plan, refute-plan, spec, parallel file-disjoint implementation, refute-diffs, verify. Evidence-gated adversarial review with five lenses.",
+  "author": {
+    "name": "wvmag",
+    "url": "https://github.com/wvmag"
+  },
+  "homepage": "https://github.com/wvmag/adversarial-build-pipeline",
+  "repository": "https://github.com/wvmag/adversarial-build-pipeline"
+}
