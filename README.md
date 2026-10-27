@@ -51,7 +51,9 @@ build a rate limiter for the API layer
 
 The skill's description matches build/implement requests, so the agent reads it and runs the pipeline automatically. To invoke it explicitly, use `/skill:adversarial-build-pipeline <task>`.
 
-**Requirements:** a recent omp (tested on 18.3.0) with the `eval` and `task` tools active — the pipeline runs on the eval kernel's `workpool`/`agent`/`judge` primitives and bundled `task` (doers) and `reviewer` (reviewers) agents. No extra roles or configuration needed.
+**Optional classifier triage** (off by default): append `; use classifier triage` to the task, and each reviewer finding gets a cheap classifier label for the harm it claims (data loss / bounded bug / style preference / unclear). Labels only reorder which findings get executed disproving checks first — they never validate evidence or override acceptance results.
+
+**Requirements:** a recent omp (tested on 18.3.0) with the `eval` and `task` tools active — the pipeline runs on the eval kernel's `workpool`/`agent`/`completion` primitives and bundled `task` (doers) and `reviewer` (reviewers) agents. All model choice goes through omp model roles (`modelRoles` in your config) and per-agent overrides; the skill never names a concrete model. No extra roles or configuration needed.
 
 ## Tuning
 
