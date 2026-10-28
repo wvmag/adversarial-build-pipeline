@@ -1,0 +1,11 @@
+{
+  "name": "adversarial-build-pipeline",
+  "version": "1.2.0",
+  "description": "Evidence-gated adversarial review with six lenses: plan, refute-plan, spec, parallel file-disjoint implementation, refute-diffs, verify.",
+  "license": "MIT",
+  "repository": "github:wvmag/adversarial-build-pipeline",
+  "keywords": ["omp", "agents", "adversarial-review", "skills"],
+  "omp": {
+    "skills": ["./skills"]
+  }
+}
