@@ -12,7 +12,7 @@ plan → refute-plan → spec → fan-out implement → refute-diffs → verify 
 - **refute-plan** — a reviewer pool attacks the plan, one item per lens; refutations need evidence (`file:line` or doc URL) or they're logged as unvalidated
 - **spec** — structured spec with per-slice intents; conflicting slice intents are screened out before any code is written
 - **fan-out** — parallel file-disjoint implementation slices, one owner per shared file
-- **refute-diffs** — reviewers attack the diffs through five lenses: correctness, readability, maintainability, performance, language best-practices
+- **refute-diffs** — reviewers attack the diffs through six lenses: correctness, readability, maintainability, performance, language best-practices, comprehension (could someone who missed the conversation work from the artifacts alone?)
 - **verify** — the orchestrator personally runs acceptance commands (exit codes are the gate, agent prose is just logging), scans for test tampering, and re-checks citations
 
 Reviewer findings are falsifiable claims that must survive an executed disproving check; the orchestrator is the only bridge between findings and code. A hallucinated premise must fail twice before it can reach implementation.
