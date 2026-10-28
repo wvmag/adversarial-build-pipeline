@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "adversarial-build-pipeline",
-      "description": "Run for any non-trivial build request: plan, refute-plan, spec, parallel file-disjoint implementation, refute-diffs, verify. Evidence-gated adversarial review with five lenses.",
-      "version": "1.1.0",
+      "description": "Run for any non-trivial build request: plan, refute-plan, spec, parallel file-disjoint implementation, refute-diffs, verify. Evidence-gated adversarial review with six lenses.",
+      "version": "1.2.0",
       "author": {
         "name": "wvmag"
       },
