@@ -22,11 +22,10 @@ Reviewer findings are falsifiable claims that must survive an executed disprovin
 ### As an omp plugin (recommended)
 
 ```sh
-omp plugin marketplace add wvmag/adversarial-build-pipeline
-omp plugin install adversarial-build-pipeline@adversarial-build-pipeline
+omp plugin install https://github.com/wvmag/adversarial-build-pipeline
 ```
 
-Then run `/reload-plugins` (or start a new session) so the skill surfaces.
+Then run `/reload-plugins` (or start a new session) so the skill surfaces. To update later, run the same command — it re-resolves repo HEAD.
 
 ### Manual
 
